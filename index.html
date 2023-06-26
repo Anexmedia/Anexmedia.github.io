@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>polifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/84ba4530fb.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    <div id="header">
+        <div class="container"> 
+            <nav>
+                <img src="img\logo img.png" class="logo">
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+             <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Anex</span><br>Miracle From Nigeria</h1>
+             </div>
+              
+        </div>
+    </div>
+    <!----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/about1.JPG" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titles">About Me</h1>
+                    <p>I, Miracle, A web programmer and content creator living in nigeria. i'm enrolled at duromedia academy 
+                        it a school that teach not only programming but how to think like one, it definetly on beatable
+                        and i also love seeing the result of my effort helping the user's experience by finding unique soluton.
+                    </p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br> Design Web/App Interfaces</li>
+                        <li><span>Web Development</span><br> Web App Development</li>
+                        <li><span>App Development</span><br> Building Android/IOS Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - current</span><br> UI/UX Design Training at Duromedia Academy</li>
+                        <li><span>2019 - 2021</span><br> Team Lead at Bonaventure Tetra LLC</li>
+                        <li><span>2017 - 2019</span><br> UI/UX Design Exeutive at Tetra Dipole Technologies. </li>
+                        <li><span>2016 - 2017</span><br> Internship at ekart ecommerce</li>
+                 </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br> UI/UX Design Training at ET Institute</li>
+                        <li><span>2016</span><br> MBA From MIT Bangalore</li>
+                        <li><span>2014</span><br> BBA From TDT Bangalore</li>
+                    </ul>
+                </div>
+                   
+            </div>
+        </div>
+    </div>
+</div>
+<!------services---------> 
+<div id="service">
+    <div class="container">
+        <h1 class="sub-titles">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>development teams, you can easily own a website built on such existing platforms with well visual design, SEO friendliness or additional plugins.
+             It also allows multiple users to manage data by creating, editing or publishing content.</p>
+                 <a href="#">Learn more</a>
+                    </div>
+        
+        <div>   
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Development</h2>Static web service is actually less common as it is an only HTML web with fixed content that you hardly update. However, 
+            there are still several static web development services you can choose as Nibble Software or Crest Infotech.</p>
+                 <a href="#">Learn more</a>
+                    </div>     
+
+        <div> 
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>The difference between webs and web apps is quite vague. The latter can be understood as apps working on any web servers with higher user interaction, typically Google Apps, Facebook, or Netflix. Some top companies like MobiDev (based in Atlanta, the USA)
+             use prevalent technologies such as PHP, Ruby, Python & Go or JavaScript for website back-end and front-end development.</p>
+                 <a href="#">Learn more</a>
+                    </div>
+        </div>
+    </div>
+</div>
+<!-----------Portfolio------------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-titles">My Portfolio</h1>
+        <div class="work-list"> 
+            <div class="work">
+                <img src="img/web app.webp">
+                <div class="layer">
+                    <h3>Music Apps </h3>
+                    <p>The app connects you to the talented people around the world.
+                        Downloud it form playstore.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="img/apps.webp">
+                <div class="layer">
+                    <h3>Social Media apps</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Downloud it form playstore.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/shop app.jpeg">
+                <div class="layer">
+                    <h3>Online Shopping apps </h3>
+                    <p>The app connects you to the talented people around the world.
+                        Downloud it form playstore.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>  
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div> 
+<!---------------contact---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub title">contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>miracleanene15@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>07042190578</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/anex_eagle?igshid=MmizYWVINDQ5Yg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a> 
+                </div>
+                <a href="img\html-tags-chart.pdf" download class="btn btn2">Download</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="your Email" required>
+                    <textarea name="message"rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> copyright Anex. Made With <i class="fa-solid fa-heart"></i>By Easy Tutorial</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }    
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+    
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzcB3l1JvYOqcOISqBU-O7KHA-wgw5B6hQyfLPC-fxiVQcDuHQ13EhflmuVuWPB9ycU/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+
+</body>
+</html>
